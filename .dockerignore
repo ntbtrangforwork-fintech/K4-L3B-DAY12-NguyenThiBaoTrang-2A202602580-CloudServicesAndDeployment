@@ -4,3 +4,18 @@
 
 .git
 .gitignore
+.env
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+.pytest_cache
+*.egg-info
+*.pem
+*.key
+
+# Không cần đưa tài liệu, test và bằng chứng deploy vào runtime image.
+tests
+screenshots
+*.md
